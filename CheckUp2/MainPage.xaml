@@ -95,10 +95,10 @@
                     <Grid.RowDefinitions>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <ToggleSwitch x:Name="toggleSwitch" Header="ToggleSwitch" VerticalAlignment="Top" Margin="10,182,0,0" Width="154"/>
-                    <ToggleSwitch x:Name="toggleSwitch1" Header="ToggleSwitch" Margin="10,319,0,0" VerticalAlignment="Top" Height="60" Width="154" d:LayoutOverrides="LeftMargin, RightMargin"/>
+                    <ToggleSwitch x:Name="toggleSwitch" Header="ToggleSwitch" VerticalAlignment="Bottom" Margin="10,0,0,179" Width="154"/>
+                    <ToggleSwitch x:Name="toggleSwitch1" Header="ToggleSwitch" Margin="10,551,0,0" VerticalAlignment="Top" Height="60" Width="154" d:LayoutOverrides="LeftMargin, RightMargin"/>
                     <ToggleSwitch x:Name="toggleSwitch2" Header="ToggleSwitch" Margin="10,476,0,416" VerticalAlignment="Stretch" Width="154" d:LayoutOverrides="LeftMargin, RightMargin"/>
-                    <ToggleSwitch x:Name="toggleSwitch3" Header="ToggleSwitch" Margin="10,0,0,344" VerticalAlignment="Bottom" Height="60" Width="154" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+                    <ToggleSwitch x:Name="toggleSwitch3" Header="ToggleSwitch" Margin="10,0,0,49" VerticalAlignment="Bottom" Height="60" Width="154" d:LayoutOverrides="VerticalAlignment"/>
                 </Grid>
             </PivotItem>
         </Pivot>
